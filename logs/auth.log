@@ -1,1 +1,18 @@
+2026-07-13T02:57:42.887525+05:30 soc-lab-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-07-13T02:58:05.214840+05:30 soc-lab-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by soc-lab(uid=1000)
+2026-07-13T02:58:05.215591+05:30 soc-lab-VMware-Virtual-Platform sudo: soc-lab : TTY=/dev/pts/0 ; PWD=/home/soc-lab ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-07-13T02:58:05.307041+05:30 soc-lab-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-07-13T02:58:20.067404+05:30 soc-lab-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by soc-lab(uid=1000)
+2026-07-13T02:58:20.068416+05:30 soc-lab-VMware-Virtual-Platform sudo: soc-lab : TTY=/dev/pts/0 ; PWD=/home/soc-lab ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-07-13T02:58:20.112344+05:30 soc-lab-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
 
+2026-07-13T03:01:17.692451+05:30 soc-lab-VMware-Virtual-Platform sshd-session[6506]: Accepted password for Afreen from 192.168.81.128 port 37682 ssh2
+2026-07-13T03:01:17.695037+05:30 soc-lab-VMware-Virtual-Platform sshd-session[6506]: pam_unix(sshd:session): session opened for user Afreen(uid=1001) by Afreen(uid=0)
+2026-07-13T03:01:17.722302+05:30 soc-lab-VMware-Virtual-Platform systemd-logind[1683]: New session '6' of user 'Afreen' with class 'user' and type 'tty'.
+2026-07-13T03:01:17.809494+05:30 soc-lab-VMware-Virtual-Platform systemd-logind[1683]: New session '7' of user 'Afreen' with class 'manager' and type 'unspecified'.
+2026-07-13T03:01:17.812261+05:30 soc-lab-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session opened for user Afreen(uid=1001) by Afreen(uid=0)
+2026-07-13T03:02:52.614643+05:30 soc-lab-VMware-Virtual-Platform su[6952]: FAILED SU (to root) Afreen on pts/1
+2026-07-13T03:07:29.428351+05:30 soc-lab-VMware-Virtual-Platform sshd-session[6647]: Disconnected from user Afreen 192.168.81.128 port 37682
+2026-07-13T03:07:29.428501+05:30 soc-lab-VMware-Virtual-Platform sshd-session[6647]: pam_unix(sshd:session): session closed for user Afreen
+
+2026-07-13T03:01:17.692451+05:30 soc-lab-VMware-Virtual-Platform sshd-session[6506]: Accepted password for Afreen from 192.168.81.128 port 37682 ssh2
